@@ -1,0 +1,171 @@
+
+@font-face {
+    font-family: 'homer';
+    src: url('font/2Dumb-webfont.eot');
+    src: url('font/2Dumb-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/2Dumb-webfont.woff') format('woff'),
+         url('font/2Dumb-webfont.ttf') format('truetype'),
+         url('font/2Dumb-webfont.svg#2dumbregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.titrerouge
+{
+	color: red;
+}
+.titrevert
+{
+	color: green;
+}
+.titrebleu
+{
+	color: blue;
+}
+body
+{
+	background: url("img/homerfond.png") fixed repeat ;
+	text-align:center;
+	font-family: homer;
+
+}
+ 
+img
+	{
+		position: fixed;
+		top:0;
+		right:0;
+	}
+ h1
+ {
+ 	border: solid 3px yellow;
+ 	text-align: left;
+ 	
+ }   
+  
+h3
+{
+	
+	text-shadow: 2px 2px 2px black;
+
+}
+
+h5
+{
+	text-shadow: 2px 2px 2px black;
+	text-align: left;
+	
+}
+
+header
+{
+	
+	top:0;
+	margin-left: 17%;
+	vertical-align: top;
+	text-align:center;
+	width:85%;
+	height:20%;
+	border: solid 3px green;
+}
+
+aside
+{
+	border:solid 2px black;
+	position:absolute;
+	background-color: #070B19;
+	height:100%;
+	width:15%;
+	top:5px;
+	left:10px;
+	display: inline-block;
+}
+ 
+
+#exp
+{
+	margin-top: 2px;
+	text-align: left;
+	width:20%;
+	height:80%;
+	vertical-align: top;
+	display: inline-block;
+}
+#comp
+{
+	margin-top: 2px;
+	text-align: left;
+	vertical-align: top;
+	width:20%;
+	height:80%;
+	display: inline-block;
+}
+#form
+{
+	margin-top: 2px;
+	text-align: left;
+	vertical-align: top;
+	width:20%;
+	height:80%;
+	display: inline-block;
+}
+@media all and (max-width: 1024px)
+
+{
+		body
+	{
+		background: url("img/homerfond.png") fixed repeat ;
+		text-align:center;
+		font-family: homer;
+		width:auto;
+
+	}
+	aside
+
+	{
+		display:none;
+	}
+	
+
+	header
+	{
+		
+		margin-left: 0px;
+		vertical-align: top;
+		text-align:center;
+		border: solid 3px green;
+		left:10px;
+		display:block;
+		width:auto;
+	}
+	
+	#exp
+	{
+		margin-top:2px;
+		vertical-align: top;
+		text-align: left;
+		width:auto;
+		display: block;
+		border: solid 3px black;
+	}
+	#comp
+	{
+		margin-top:2px;
+		text-align: left;
+		width:auto;
+		vertical-align: top;
+		display: block;
+		border: solid 3px black;
+
+	}
+	#form
+	{
+		margin-top:2px;
+		text-align: left;
+		width:auto;
+		vertical-align: top;
+		display: block;
+		border: solid 3px black;
+
+	}
+}
