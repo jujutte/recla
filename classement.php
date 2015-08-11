@@ -20,5 +20,4 @@ function sort_link($text, $order=false)
 
     return $link;
 }
-mysql_close(); // Déconnexion de MySQL
 ?>
