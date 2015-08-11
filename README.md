@@ -1,2 +1,2 @@
 # projet recla
-Ceci est un éxercice de démo GITHUB!
+Ceci est un exercice de démo GITHUB!
