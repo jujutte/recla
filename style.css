@@ -22,7 +22,12 @@
 {
 	color: blue;
 }
+body
+{
+	background: url("img/homerfond.png") fixed repeat ;
+	font-family: homer;
 
+}
  
 img
 	{
